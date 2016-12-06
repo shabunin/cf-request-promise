@@ -1,7 +1,7 @@
 # Usage
 
 
-`request(url, method, headers, body)
+request(url, method, headers, body)
 
   .then(function(res) {
 
@@ -20,5 +20,4 @@
 
     CF.log(err.body);
 
-  });`
-
+  });
