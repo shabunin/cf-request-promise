@@ -1,0 +1,68 @@
+<gui>
+  <properties>
+    <project>cf-request-promise</project>
+    <designer>
+    </designer>
+    <size autoposition="scale">
+      <portrait width="320" height="480" />
+      <landscape width="480" height="320" />
+    </size>
+    <autoposition />
+    <imagefolder>assets</imagefolder>
+    <debug loaderrors="0" connectionerrors="0" />
+    <devices>
+      <device name="iPad Polyakov">CBB4AC7495CA0DD0739D0C5B45BDFF89</device>
+      <device name="iPad (Oleg) benelux">5B1B335F53594036E1EF29ACBD2099C8</device>
+      <device name="iPad_Кинотеатр razdory">231C94F13601735E22E50BEFFD70238C</device>
+      <device name="Ipad gr ss -&gt; LGE NEXUS">5F4EE72BE8252A30B52425D56B0AE3E0</device>
+      <device name="iPad Vladimir">1D98C775C2C564ADEBE03384980D3D72</device>
+      <device name="iPad AK 2 - nw mosfilm">45D7A26BD847004B1932B4F3C8F3CA50</device>
+      <device name="iPad (PAVEL) klar cet">D0E9980BE97B8326AD79BA2CBB094ED2</device>
+      <device name="iPad (Пётр) mini -- ipad rs pro">53EE5FD39A7FC9B1A6DABCCDE45ADB3F</device>
+      <device name="iPad rs new 18.12">B61C91A1867233DEC98FE9605E2AA91B</device>
+      <device name="6s rs">D86A45A099CD65D36831FB4432BCD733</device>
+      <device name="iPad Anton">507647CC868F107C13EF89AD214C90F3</device>
+      <device name="iPad AK 2 LAST">C4B3385EA7C1B0F23EB3777658C615D8</device>
+      <device name="iPad Platon 1">A18492E17CA094121C4C55A330582503</device>
+      <device name="iPad Kuhnya">108DD6F20B666DC327BFC3328C97075D</device>
+      <device name="iPad MK">8AA16D0F408CD90604BBFC0A7233D151</device>
+      <device name="iPad Платон 2">9C0FF1504004AAFA13B36E449818E6EE</device>
+      <device name="iPad Stolovaya">B70A8F27D741D53D76F1F457A8B653AE</device>
+      <device name="iPad spalnya">58027CB3BA880A3A75404081B2BD882E</device>
+      <device name="iPad Spalnya">32ED55F43F62340D17DFFB20FC834CC7</device>
+      <device name="iPad2 64 AK hc">A015051F60CA7EEE15F3864E737419C4</device>
+      <device name="iPad Rublevka">A6C96E0C4A4F5E3DCF4C48A0BF10397E</device>
+      <device name="iPad Pollyanna 2">87BF90BB31B41B1C63324CD8B68F20E2</device>
+      <device name="iPad Polyanka 3">E54401AE2FBCC260321758A8C43FE248</device>
+      <device name="Leonardo Samsung Tab S">23A6B428F83A848214FD3E792595FEC5</device>
+      <device name="air olga">4A2F1B9F42E35352C62D8FAD199D109C</device>
+      <device name="iPad (Maxim)">146AB92D1A81A55887711A14A5176697</device>
+      <device name="Sony LT25i">15DCDE3D3B63FA8BE1DBE3E52848A155</device>
+      <device name="iPad Dmitriy">69E32DB061C09965437E713E269B7FB8</device>
+    </devices>
+  </properties>
+  <themes>
+    <theme type="button" name=".cfblue2_bottom[state='0']"><![CDATA[padding: 0px 19px 0px 19px; -webkit-border-image: url(bottom_btn_off.png) 0 19 0 19; text-shadow: rgba(0,0,0,0.78) 0px -1px 0px; color: #FFFFFF; font-size: 18px; font-family: 'Futura'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".cfblue2_bottom[state='1']"><![CDATA[padding: 0px 19px 0px 19px; -webkit-border-image: url(bottom_btn_on.png) 0 19 0 19; text-shadow: rgba(0,0,0,0.78) 0px -1px 0px; color: #FFFFFF; font-size: 18px; font-family: 'Futura'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="text" name=".text_10_l"><![CDATA[ color: #FFFFFF; font-size: 10px; font-family: 'Verdana'; text-align: left; vertical-align: top; font-weight: normal; font-style: none; text-decoration: none; display: table-cell;]]></theme>
+  </themes>
+  <scripts>
+    <script name="cf-request-promise.js" />
+    <script name="userMain.js" />
+  </scripts>
+  <page name="Startup" folder="" j="0" tags="" transition="" subtype="" time="0" ease="" start="1">
+    <portrait />
+    <landscape>
+      <btn j="0" x="9" y="0" w="92" h="44" t="cfblue2_bottom" flip="None" sim="1" l="0" s="1" tags="" js="requestTest(&quot;http://google.com&quot;);">
+        <inactive s="0">goo</inactive>
+        <active s="0">goo</active>
+      </btn>
+      <txt j="2" x="131" y="22" w="349" h="298" t="text_10_l" wrap="False" l="0" tags="">body</txt>
+      <txt j="1" x="131" y="0" w="349" h="16" t="text_10_l" wrap="False" l="0" tags="">Status</txt>
+      <btn j="0" x="9" y="44" w="92" h="44" t="cfblue2_bottom" flip="None" sim="1" l="0" s="1" tags="" js="requestTest(&quot;http://google.com/asdfwreasdfasdfgf&quot;);">
+        <inactive s="0">404</inactive>
+        <active s="0">404</active>
+      </btn>
+    </landscape>
+  </page>
+</gui>
